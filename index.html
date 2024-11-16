@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthsary Letter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Music -->
+    <audio id="bg-audio" loop preload="auto" autoplay>
+        <source src="3.mp3.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Dark Overlay -->
+    <div class="overlay"></div>
+
+    <div class="letter-container">
+        <div class="letter-header">
+            Happy 3rd Monthsary, My Love!
+        </div>
+
+        <div class="letter-body">
+           <p>Happy 3rd month of love, baby. I want to thank you for standing by me during my tough times.</p><br>
+            <p>Our relationship may not always be perfect, but I want you to know that I’ll stay no matter how many challenges or arguments we face.</p><br>
+            <p>As they say, arguments are part of a long-lasting relationship. I’m looking forward to spending many more years with you. I love you so much.</p><br>
+            <p>Here's to us, to our love, and to many more months to come!</p>
+        </div>
+
+        <div class="signature">
+           Arjay ❤️
+        </div>
+
+    <!-- Play/Pause and Mute/Unmute Buttons -->
+    <div class="controls">
+        <button class="play-pause-btn" onclick="togglePlayPause()">▶️</button>
+        <button class="mute-unmute-btn" onclick="toggleMute()">
+            <span id="mute-icon">🔊</span>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
